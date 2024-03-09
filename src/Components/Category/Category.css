@@ -1,0 +1,13 @@
+.custom-card-img {
+    width: 150px; /* Customize the width as needed */
+    height: 150px; /* Customize the height as needed */
+    object-fit: cover; /* Ensure the image covers the specified dimensions */
+}
+
+
+
+.font-style {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

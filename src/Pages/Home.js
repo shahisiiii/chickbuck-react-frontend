@@ -1,0 +1,21 @@
+import React from 'react';
+import Header from '../Components/Header/Header';
+import Banner from '../Components/Banner/Banner';
+import Category from '../Components/Category/Category';
+import Footer from '../Components/Footer/Footer';
+import Signup from '../Components/Signup/Signup';
+
+
+function Home() {
+  return (
+    <div className='home container'>
+      <Header />
+      <Banner />
+      <Category />
+      <Signup />
+      
+    </div>
+  )
+}
+
+export default Home
