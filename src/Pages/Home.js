@@ -4,6 +4,8 @@ import Banner from '../Components/Banner/Banner';
 import Category from '../Components/Category/Category';
 import Footer from '../Components/Footer/Footer';
 import Signup from '../Components/Signup/Signup';
+import Login from '../Components/Login/Login';
+import View from '../Components/View/View';
 
 
 function Home() {
@@ -13,6 +15,8 @@ function Home() {
       <Banner />
       <Category />
       <Signup />
+      <Login />
+      <View />
       
     </div>
   )
