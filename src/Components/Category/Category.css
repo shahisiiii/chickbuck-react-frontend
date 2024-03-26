@@ -1,7 +1,28 @@
 .custom-card-img {
     width: 150px; /* Customize the width as needed */
-    height: 150px; /* Customize the height as needed */
+    height:150px; /* Customize the height as needed */
     object-fit: cover; /* Ensure the image covers the specified dimensions */
+}
+
+  
+    
+
+  
+  @media (max-width: 396px) {
+    .custom-card-img {
+        width: 130px; /* Adjust the width as needed */
+        height: 130px; /* Adjust the height as needed */
+    }
+    .custom-card {
+        width: 1rem; /* Adjust the width as needed */
+    }
+    .text-start h6{
+        font-size: 20px;
+    }
+    .card-title{
+        font-size: 18px;
+        margin-right: 20px;
+    }
 }
 
 
@@ -11,3 +32,5 @@
     font-weight: 700;
     font-style: normal;
 }
+
+

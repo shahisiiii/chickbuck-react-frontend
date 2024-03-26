@@ -5,12 +5,12 @@ function Category() {
     return (
 
 
-        <div>
+        <div >
             <div className="container text-start">
                 <h6 className='fw-medium display-6  font-style mt-5 mb-3 '>Hello shahis , whats on your mind</h6>
             </div>
 
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 d-flex justify-content-between flex-wrap">
+            <div class="row  d-flex justify-content-between  flex-wrap">
                 <div className="card border-light" style={{ width: '12rem' }}>
                     <img className="card-img-top custom-card-img img-fluid" src="../../../Images/burger.jpeg" alt="Card cap" />
                     <div className="card-body">

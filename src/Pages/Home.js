@@ -8,14 +8,12 @@ import Login from '../Components/Login/Login';
 import View from '../Components/View/View';
 
 
-function Home() {
+function Home(props) {
   return (
     <div className='home container'>
       <Header />
       <Banner />
       <Category />
-      <Signup />
-      <Login />
       <View />
       
     </div>

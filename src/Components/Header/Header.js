@@ -1,12 +1,12 @@
 import React from 'react';
-
+import './Header.css'
 function Header() {
   const bucketImageUrl = 'https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg';
   const signInImageUrl = 'https://images.ctfassets.net/wtodlh47qxpt/6bJdGLRkksNvWP4LI9ZiFF/cb89d6393492fd093e0f99980abfa39e/Account_Icon.svg';
   
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-light">
+      <nav className="navbar navbar-bg container navbar-expand-lg bg-body-light fixed-top">
         <div className="container-fluid d-flex">
           <a className="navbar-brand" href="#">
             <div className="chick-logo">
@@ -30,7 +30,7 @@ function Header() {
               </li>
             </ul>
             <form className="d-flex" role="search">
-              <a href="#" className="d-flex align-items-center mt-4 me-3"style={{ textDecoration: 'none', color: 'inherit' }} aria-current="">
+              <a href="/signup" className="d-flex align-items-center mt-4 me-3"style={{ textDecoration: 'none', color: 'inherit' }} aria-current="">
                 <img  className='me-3' src={signInImageUrl} width={20} alt="sign in" />
                 <span>Sign In</span>
               </a>

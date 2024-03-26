@@ -3,31 +3,74 @@ import './View.css'
 
 function View() {
     return (
-        <div>
-            <div className="container text-start">
-                <h6 className='fw-medium display-6  font-style mt-5 mb-3 '>Hello shahis , whats on your mind</h6>
-            </div>
+        <div >
+            <div class="row no-gutters">
+                <div class="col-6 col-md-4">
+                    <div className='  almarai-title'>
 
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 d-flex justify-content-between flex-wrap">
-                <div className="card border-light" style={{ width: '270px' }}>
-                    <img className="card-img-top custom-card-img img-fluid" src="../../../Images/burger_view.png" alt="Card_view" />
-                    <div className="card-body">
-                        <h5 className="card-title">Zinger, Hot Crispy Burger</h5>
+                        <div class=" almarai-links border-light p-4">
+                            <span class='list-group-item list-group-item-action border-light text-start almarai-title'>CHICKBUCK MENU</span>
+                            <a href="#" class="list-group-item list-group-item-action border-light mt-4 text-start text-dark-emphasis">BURGERS</a>
+                            <a href="#" class="list-group-item list-group-item-action border-light mt-4 text-start text-dark-emphasis">FRIED CHICKEN</a>
+                            <a href="#" class="list-group-item list-group-item-action border-light mt-4 text-start text-dark-emphasis">SANDWICH</a>
+                            <a href="#" class="list-group-item list-group-item-action border-light mt-4 text-start text-dark-emphasis">STARTERS</a>
+                            <a href="#" class="list-group-item list-group-item-action border-light mt-4 text-start text-dark-emphasis">DRINKS</a>
+                        </div>
+
                     </div>
-                    <div class="card-body">
-                         <h5> ₨ 499</h5>
+                </div>
+                <div class="col-12 col-sm-6 col-md-8 mt-4">
+
+                    <div className="row">
+                        <div className="col-12 col-sm-6 col-md-4 mb-4">
+                            <div className="card mb-4 border-light">
+                                <img className="card-img-top custom-item-img img-fluid" src="../../../Images/burger_item.png" alt="Card cap" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Burgers</h5>
+                                    <p> <h5>₹ 199</h5> </p>
+                                    <p>Relish the KFC Classic Zinger-lettuce, mayo & Zinger patty filled between</p>
+                                    <button type="button" class="btn btn-danger">Add To Cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 col-md-4 mb-4">
+                            <div className="card mb-4 border-light">
+                                <img className="card-img-top custom-item-img img-fluid" src="../../../Images/burger_item.png" alt="Card cap" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Burgers</h5>
+                                    <p> <h5>₹ 199</h5> </p>
+                                    <p>Relish the KFC Classic Zinger-lettuce, mayo & Zinger patty filled between</p>
+                                    <button type="button" class="btn btn-danger">Add To Cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-sm-6 col-md-4 mb-4">
+                            <div className="card mb-4 border-light">
+                                <img className="card-img-top custom-item-img img-fluid" src="../../../Images/burger_item.png" alt="Card cap" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Burgers</h5>
+                                    <p> <h5>₹ 199</h5> </p>
+                                    <p>Relish the KFC Classic Zinger-lettuce, mayo & Zinger patty filled between</p>
+                                    <button type="button" class="btn btn-danger">Add To Cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        {/* Repeat this structure for additional cards */}
                     </div>
-                    <div class="card-body">
-                        Special big chicken burger
-                    </div>
-                    <button type="button" class="btn btn-custom">Add to Cart</button>
+
+
+
+
 
                 </div>
-
-
             </div>
+
         </div>
+
     )
 }
 
-export default View
+export default View;
