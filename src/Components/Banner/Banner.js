@@ -3,7 +3,7 @@ import './Banner.css'
 
 function Banner() {
   return (
-    <div className=' fade_bottom banner-padding'>
+    <div className=' banner-padding'>
       <div id="carouselExampleSlidesOnly" className="carousel slide "  data-bs-ride="carousel">
         <div className="carousel-inner ">
           <div className="carousel-item active ">

@@ -1,36 +1,57 @@
-.custom-card-img {
-    width: 150px; /* Customize the width as needed */
-    height:150px; /* Customize the height as needed */
-    object-fit: cover; /* Ensure the image covers the specified dimensions */
-}
-
-  
-    
-
-  
-  @media (max-width: 396px) {
-    .custom-card-img {
-        width: 130px; /* Adjust the width as needed */
-        height: 130px; /* Adjust the height as needed */
-    }
-    .custom-card {
-        width: 1rem; /* Adjust the width as needed */
-    }
-    .text-start h6{
-        font-size: 20px;
-    }
-    .card-title{
-        font-size: 18px;
-        margin-right: 20px;
-    }
-}
-
-
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=Darker+Grotesque:wght@300..900&family=Fredoka:wght@300..700&display=swap');
 
 .font-style {
-    font-family: "Sarabun", sans-serif;
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    
+  }
+  
+
+.responsive-text {
+    font-size: 42px; /* Default font size */
+}
+.heading-txt{
+    margin: 20px 0 20px;
+}
+.text-shadow {
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3); /* Add a shadow to the text */
+}
+.category-txt{
+    font-size: 28px;
+    font-weight: 600;
 }
 
 
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+    .responsive-text {
+        font-size: 30px; /* Font size for screens up to 768px */
+    }
+    .heading-txt{
+        margin: 10px 0 10px;
+    }
+    .category-txt{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+/* Adjust font size for even smaller screens */
+@media (max-width: 576px) {
+    .responsive-text {
+        font-size: 20px; /* Font size for screens up to 576px */
+    }
+    .heading-txt{
+        margin: 10px 0 10px;
+    }
+    .text-shadow {
+        text-shadow: .5px 1px 1px rgba(0, 0, 0, 0.2); /* Add a shadow to the text */
+    }
+    .category-txt{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+}

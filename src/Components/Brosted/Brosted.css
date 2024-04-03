@@ -1,0 +1,5 @@
+.custom-item-img {
+    width: 25rem; /* Customize the width as needed */
+    height:13.5rem; /* Customize the height as needed */
+    object-fit: cover; /* Ensure the image covers the specified dimensions */
+}

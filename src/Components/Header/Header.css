@@ -1,3 +1,9 @@
 .navbar-bg{
     background-color: white;
 }
+
+@media (max-width: 576px) {
+    .logo-image{
+        width: 90px;
+    }
+}

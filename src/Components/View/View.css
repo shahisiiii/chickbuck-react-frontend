@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oxygen:wght@300;400;700&family=Signika:wght@300..700&display=swap');
 .custom-item-img {
     width: 25rem; /* Customize the width as needed */
     height:13.5rem; /* Customize the height as needed */
@@ -5,20 +6,114 @@
 }
 
 
-.almarai-title {
-    font-family:  "Almarai", sans-serif;
-    font-style: normal;
-    font-weight:700;
-    font-size: 40px;
-    line-height:31px;
-    letter-spacing: -1px;
-    
-  }
+.menu-text{
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 33px;
+  letter-spacing: -.5px;
+  line-height: 2;
+  color: rgb(37, 32, 32);
+}
 
-  .almarai-links {
-    font-family: "Almarai", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: .7px;
+
+@media (max-width: 1024px) {
+  .menu-text{
+
+    font-size: 25px;
+    letter-spacing: -1px;
   }
+}
+
+@media (max-width: 768px) {
+  
+  
+  .menu-text{
+
+    font-size: 20px;
+    letter-spacing: -1.2px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .menu{
+    display:none;
+  }
+}
+
+.fixed-column {
+  position: sticky;
+  top: 0px;
+  height: calc(100vh - rem); /* Adjust the height as needed */
+  overflow-y: auto;
+  align-items: center;
+  margin-top: 60px;
+  
+}
+
+.overflow-scroll {
+  overflow-y: auto;
+  max-height: calc(100vh - 4rem); /* Adjust the height as needed */
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  
+}
+.overflow-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+.view-margin-top{
+  margin-top: 60px;
+}
+
+.chick-logo-menu{
+  padding: 60px;
+}
+
+.font-style {
+  font-family: "Darker Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.font-style-price {
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  background-color: rgb(255, 238, 0);
+  display:inline-block;
+  width:fit-content;
+}
+
+.font-style-discription {
+  font-family: "Darker Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  opacity: 70%;
+}
+
+
+.addtocart-btn{
+  background-color: #e3141bf5;
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.overflow-scroll-filter {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  
+}
+.overflow-scroll-filter::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+
