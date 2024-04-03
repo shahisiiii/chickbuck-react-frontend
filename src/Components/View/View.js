@@ -135,7 +135,7 @@ function View() {
                             </div>
                             <div class="col-8">
                                 <div class="card border-light ">
-                                    <div className="font-style">C1 Burger</div>
+                                    <div className="font-style-item">C1 Burger</div>
                                     <div className="font-style-price rounded-2 text-center px-2" >&#x20B9; 299</div>
                                     <div class="font-style-discription">Big Crunchy Chicken Burger</div>
                                     <button class="btn addtocart-btn rounded-3 mt-2">Add to Cart</button>
