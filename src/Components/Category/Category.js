@@ -3,7 +3,7 @@ import './Category.css';
 
 function Category() {
     return (
-        <div>
+        <div className='container'>
             <div className="container text-start heading-txt">
                 <span className='fw-medium display-6 font-style responsive-text text-shadow'>Hello shahis, what's on your mind</span>
             </div>

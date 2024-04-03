@@ -1,0 +1,19 @@
+.footer-txt-color{
+    color: black;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+}
+.footer-bg-color{
+    background-color: rgba(194, 191, 191, 0.275);
+}
+@media (max-width: 576px) {
+    .footer-txt-color{
+        font-size: 10px;
+    }
+    .footer-txt-title{
+        font-size: 15px;
+    }
+
+}

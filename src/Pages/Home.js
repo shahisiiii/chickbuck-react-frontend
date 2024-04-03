@@ -10,7 +10,7 @@ import Footer from '../Components/Footer/Footer';
 
 function Home(props) {
   return (
-    <div className='home container'>
+    <div className='home'>
       <Header />
       <Banner />
       <Category />

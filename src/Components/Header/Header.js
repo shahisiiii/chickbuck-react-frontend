@@ -5,7 +5,7 @@ function Header() {
   const signInImageUrl = 'https://images.ctfassets.net/wtodlh47qxpt/6bJdGLRkksNvWP4LI9ZiFF/cb89d6393492fd093e0f99980abfa39e/Account_Icon.svg';
 
   return (
-    <div>
+    <div className='container'>
       <nav className="navbar img-fluid navbar-bg container navbar-expand-lg bg-body-light fixed-top">
         <div className="container d-flex">
           <a className="navbar-brand" href="#">

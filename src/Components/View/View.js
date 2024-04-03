@@ -4,7 +4,7 @@ import Brosted from '../Brosted/Brosted';
 
 function View() {
     return (
-        <div>
+        <div className='container'>
 
             <div className="row container view-margin-top menu ">
                 <div className="col-6 fixed-column col-md-4">
